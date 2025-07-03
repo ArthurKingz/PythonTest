@@ -5,12 +5,12 @@ from PIL import Image
 import numpy as np
 
 st.toast("Welcome to Python Web")
-st.image('./ML_Class/dell-logo-grill.jpg')
+st.image('./dell-logo-grill.jpg')
 st.title("Week 2 Python Web")
 
 st.text("Crack Detector using KNN")
 
-model = joblib.load("ML_Class/trained_model_KNN.pkl")
+model = joblib.load("trained_model_KNN.pkl")
 
 # Preprocessing and feature extraction
 def preprocess_image(img):
