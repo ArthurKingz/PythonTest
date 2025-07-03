@@ -1,5 +1,6 @@
-import streamlit as st
-import cv2
-import joblib
-from PIL import Image
-import numpy as np
+streamlit
+opencv-python-headless
+joblib
+numpy
+scikit-learn
+Pillow
