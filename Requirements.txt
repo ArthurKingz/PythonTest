@@ -3,4 +3,4 @@ opencv-python-headless
 joblib
 numpy
 scikit-learn
-Pillow
+pillow
